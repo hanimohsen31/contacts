@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(26, 22, 22);
+}
+
+.intro {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.intro .left {
+  height: 100%;
+  width: 50%;
+  padding: 5rem;
+}
+.intro .left img {
+  width: 100%;
+  border-radius: 50%;
+}
+.intro .right {
+  width: 50%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.intro .right .typed-text {
+  height: 200px;
+  overflow: hidden;
+}
+.intro .right .typed-text h2 {
+  color: #fff;
+  font-size: 46px;
+}
+.intro .right .typed-text h3 {
+  color: #fff;
+  font-size: 40px;
+}
+.intro .right .hr {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.intro .right .hr label {
+  width: 170px;
+  background: #a0a0c3;
+  padding: 5px 10px;
+}
+.intro .right .hr hr {
+  width: 70%;
+  margin: 30px 0;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.link-container .first-icon {
+  margin-inline-end: 10px;
+  height: 30px;
+}
+.link-container label {
+  color: #fff;
+  margin-inline-end: 10px;
+  width: 150px;
+  text-transform: capitalize;
+}
+.link-container a {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+  margin-inline-end: 15px;
+  border-radius: 3px;
+  background-color: #777;
+  color: #fff;
+  width: 400px;
+  padding: 10px 15px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.link-container .copy-icon {
+  cursor: pointer;
+}
+
+.particles-background {
+  position: absolute;
+  display: block;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(180, 180, 180);
+}/*# sourceMappingURL=styles.css.map */
