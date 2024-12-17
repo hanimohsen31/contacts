@@ -9,6 +9,8 @@ let links = [
   { link: "https://www.behance.net/hanimohsen3810", lebel: "behance" },
   { link: "https://mostaql.com/u/hanimohsen", lebel: "mostaql" },
   { link: "https://hanimohsen3810.gumroad.com", lebel: "gumroad" },
+  { link: "https://sites.google.com/view/hanimohsen/home", lebel: "google sites" },
+  { link: "https://drive.google.com/file/d/1rLpZ1aRn-hEBS7sxHbZnF-WnoX35_tEk/view", lebel: "Updated Cv" },
   { link: "hanimohsen3810@yahoo.com", lebel: "Paypal" },
   { link: "hanimohsen31@gmail.com", lebel: "Email" },
 
@@ -45,6 +47,13 @@ let links = [
   { link: "https://hanimohsen31.github.io/Nintendo", lebel: "Nintendo" },
   { link: "https://hanimohsen31.github.io/Casper", lebel: "Casper" },
   { link: "https://hanimohsen31.github.io/Leaon", lebel: "Leaon" },
+
+  { link: "hr", lebel: "Certificates" },
+  { link: "https://drive.google.com/file/d/1_1IPbz7gKC-io6tZOkOA852xSiuLtSxn/view", lebel: "CS50" },
+  { link: "https://drive.google.com/file/d/1b0AwGUoGWP7J1Bus5A6E8Mwrqa2IV5Cv/view", lebel: "Freelancing Basics" },
+  { link: "https://drive.google.com/file/d/1g1MD1YnvLRTzOVA7FCdeI_MhaoH4sDB8/view", lebel: "Interior Design" },
+  { link: "https://drive.google.com/file/d/1yBHoPqo1q6sg-aJzGsMO2kJwUFtcX4Pd/view", lebel: "IN THE NIGHT SKY: ORION" },
+  { link: "https://drive.google.com/file/d/1s57mETOOqt8YsEKCokf341Mc4VWB5gfF/view", lebel: "Resala" },
 ];
 
 let linkContainer = `
