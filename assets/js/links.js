@@ -1,7 +1,7 @@
 let links = [
 
-  { link: "https://www.linkedin.com/in/haniomhsen3810", lebel: "Contacts" },
-  
+  { link: "https://hani-rashed.web.app", lebel: "Contacts" },
+
   { link: "hr", lebel: "Social" },
   { link: "https://www.linkedin.com/in/haniomhsen3810", lebel: "linkedin" },
   { link: "https://github.com/hanimohsen31", lebel: "github" },
