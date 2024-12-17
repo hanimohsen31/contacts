@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "target": "hani-rashed",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
