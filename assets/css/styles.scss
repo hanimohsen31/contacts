@@ -1,3 +1,18 @@
+:root {
+  // text colors
+  --color-text: #fff;
+  --color-links: #fff;
+  --color-labels: #fff;
+  --color-typed1: #fff;
+  --color-typed2: #fff;
+  // background colors
+  --bg-body: rgb(26, 22, 22);
+  --bg-label: #a0a0c3;
+  --bg-link: #777;
+  --bg-scrollbar-thumb:  rgb(180, 180, 180);
+  --bg-scrollbar: #f1f1f1;;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
@@ -14,7 +29,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(26, 22, 22);
+  background-color:var(--bg-body)
 }
 
 .intro {
@@ -38,25 +53,25 @@ body {
       height: 200px;
       overflow: hidden;
       h2 {
-        color: #fff;
+        color: var(--color-typed1);
         font-size: 46px;
       }
       h3 {
-        color: #fff;
+        color:  var(--color-typed2);
         font-size: 40px;
       }
     }
     .hr {
       display: flex;
-      color: #fff;
+      color: var(--color-labels);
       align-items: center;
       margin-bottom: 15px;
-      label{
+      label {
         width: 170px;
-        background: #a0a0c3;
+        background: var(--bg-label);
         padding: 5px 10px;
       }
-      hr{
+      hr {
         width: 70%;
         margin: 30px 0;
       }
@@ -73,7 +88,7 @@ body {
     height: 30px;
   }
   label {
-    color: #fff;
+    color: var(--color-labels);
     margin-inline-end: 10px;
     width: 150px;
     text-transform: capitalize;
@@ -85,8 +100,8 @@ body {
     font-size: 14px;
     margin-inline-end: 15px;
     border-radius: 3px;
-    background-color: #777;
-    color: #fff;
+    background-color: var(--bg-link);
+    color: var(--color-links);
     width: 400px;
     padding: 10px 15px;
     letter-spacing: 2px;
@@ -111,8 +126,8 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
+  background-color: var(--bg-scrollbar);
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(180, 180, 180);
+  background-color:var(--bg-scrollbar-thumb);
 }
